@@ -1,45 +1,26 @@
 const express = require('express');
+const cors = require('cors'); 
 const router = express.Router();
 const projects = require('./projects.json');
 
-// Get all the books
+// Enable CORS for this route
+router.use(
+  cors({
+    origin: "http://localhost:3000", 
+    methods: "GET,POST,PUT,DELETE",
+    allowedHeaders: "Content-Type,Authorization",
+  })
+);
+
+// Get all projects
 router.get('/', (req, res) => {
   res.json(projects);
 });
 
-// Get a specific book
+// Get a specific project
 router.get('/:id', (req, res) => {
   const { id } = req.params;
   res.json(projects.filter((ele) => ele.id === parseInt(id)));
 });
-
-// router.post('/', (req, res) => {
-//   const body = req.body;
-//   console.log(body);
-//   projects.push(body);
-//   res.json({ message: 'The book has been added' });
-// });
-
-// router.put('/:id', (req, res) => {
-//   const { id } = req.params;
-//   const body = req.body;
-//   projects.forEach((project, index) => {
-//     if (project.id === parseInt(id)) {
-//       projects[index] = body;
-//     }
-//   });
-//   res.json({ message: `The book with ID ${id} has been updated` });
-//   // res.json(books);
-// });
-
-// router.delete('/:id', (req, res) => {
-//   const { id } = req.params;
-//   projects.forEach((project, index) => {
-//     if (project.id === parseInt(id)) {
-//       projects.splice(index);
-//     }
-//   });
-//   res.json({ message: `Book with id #${id} has been deleted` });
-// });
 
 module.exports = router;
