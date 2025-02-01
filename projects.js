@@ -6,9 +6,10 @@ const projects = require('./projects.json');
 
 router.use(
   cors({
-    origin: "http://localhost:3000", 
+    origin: ['http://localhost:3000', 'https://portfolio-kswrmrdun-eity2021s-projects.vercel.app'],
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: "Content-Type,Authorization",
+    credentials: true
   })
 );
 
