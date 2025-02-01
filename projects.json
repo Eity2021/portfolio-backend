@@ -11,7 +11,10 @@
       "React Bootstrap",
       "React js",
       "Lazy Loader",
-      "React hooks form"
+      "React hooks form",
+      "React router dom",
+      "axios",
+      "yap"
     ],
     "allImages": [
       "https://i.ibb.co.com/cKjhH8CL/2025-01-31-19-05-00-Window.png",
@@ -31,8 +34,29 @@
 
   {
     "id": 2,
-    "name": "Around the World in Eighty Days",
-    "author": "Jules Verne"
+    "name": "My kompass",
+    "image": "https://i.ibb.co.com/67X9MJPV/08692dad-624b-415b-bf56-a653368cb5e64.jpg",
+    "description": "A well-designed website plays a crucial role in streamlining business operations, enhancing user experience, and ensuring seamless interactions. Key features such as appointment scheduling allow users to book services effortlessly, integrating calendar sync for automated reminders and confirmations. Event management capabilities enable businesses to create, promote, and track attendance for various events, with automated notifications and payment integration for ticketed occasions. A robust booking system supports industries like banking, restaurants, and visitor management, ensuring smooth operations with real-time updates and secure processing. Payroll management systems automate salary calculations, tax deductions, and compliance reporting while offering employees self-service portals for accessing payslips and tax documents. Secure user authentication with two-factor authentication and role-based access control ensures data protection. E-commerce capabilities with integrated payment gateways enable seamless transactions, while analytics and reporting tools provide valuable insights into user behavior, conversion rates, and business performance. Customer support systems, including AI-powered chatbots and live chat support, enhance user engagement and query resolution. Additionally, mobile responsiveness and accessibility ensure a seamless experience across all devices, making websites more efficient, user-friendly, and adaptable to modern business needs.",
+    "liveLink": "https://hellokompass.com/",
+    "gitLink": "",
+    "languageInfo": [
+      "HTML",
+      "Material UI",
+      "React js",
+      "Lazy Loader",
+      "React hooks form",
+      "React router dom",
+      "axios",
+      "yap"
+    ],
+    "allImages": [
+      "https://i.ibb.co.com/rf02GkcY/2025-02-01-13-43-29.png",
+      "https://i.ibb.co.com/Fbsxdw04/2025-02-01-14-19-44-Window.png",
+      "https://i.ibb.co.com/NdXnC1dj/2025-02-01-14-20-02-Window.png",
+      "https://i.ibb.co.com/whc9jNNd/2025-02-01-14-20-18-Window.png",
+      " https://i.ibb.co.com/1c2JfHR/2025-02-01-14-23-36.png",
+      "https://i.ibb.co.com/JFGcLCBv/2025-02-01-14-23-55-Window.png"
+    ]
   },
 
   { "id": 3, "name": "David Copperfield", "author": "Charles Dickens" },
