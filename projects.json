@@ -60,12 +60,28 @@
     ]
   },
 
-  { "id": 3, "name": "David Copperfield", "author": "Charles Dickens" },
-
-  { "id": 4, "name": "The Adventures of Tom Sawyer", "author": "Mark Twain" },
   {
-    "id": 5,
-    "name": "Harry Potter and The Philosophers Stone",
-    "author": "J.K. Rowley"
+    "id": 3,
+    "name": "Hello Reception",
+    "image": "https://i.ibb.co.com/VrZpShC/2025-02-15-13-02-01-Window.png",
+    "description": "This platform offers various types of receptions, including appointments, events, hotels, restaurants, and more.Once an appointment or booking is confirmed, a unique QR code is generated. Simply scan the code to check in and gain access to your meeting, event, or any other reservation.",
+    "liveLink": "https://reception.hellokompass.com/login",
+    "gitLink": "",
+    "languageInfo": [
+      "HTML",
+      "Material UI",
+      "React js",
+      "Lazy Loader",
+      "React hooks form",
+      "React router dom",
+      "axios",
+      "yap"
+    ],
+    "allImages": [
+      "https://i.ibb.co.com/VrZpShC/2025-02-15-13-02-01-Window.png",
+      "https://i.ibb.co.com/M5fJMZnP/2025-02-15-13-00-50-Window.png",
+      "https://i.ibb.co.com/3mFhqqVL/56565.jpg",
+      "https://i.ibb.co.com/twLsrrLh/454png.png"
+    ]
   }
 ]
